@@ -1,13 +1,10 @@
 """
-Single Neuron in python
-
-1. Your inputs - X1 and X2
-2. Your weights - W1 and W2
-3. Your bias - B
+A single neuron that learns to predict pass/fail based on
+hours slept (x1) and hours studied (x2). Uses sigmoid + cross-entropy.
 
 Inputs is the info given
-Weights are the value added onto the inputs to weigh them
-Bias is the bar shift that you're giving the neuron
+Weights are esentially the learned numbers. It starts random and then it's multiplied by the input to produce that inputs contribution to z
+Bias is the bar shifting; how easily the neuron fires.
 """
 
 import random
